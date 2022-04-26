@@ -1,0 +1,61 @@
+/* para tener mas organizada la parte de CSS podemos agregar un comentario cuando inicia una sección y cuando finaliza */
+
+/* puedo agregar más de una cosa dentro de una llave */
+
+* {
+    margin: 0;
+    padding: 1%;
+    
+
+}
+
+
+    /* IMAGENES DE FONDO */
+.home {
+    background-image: url('images/blucactus-fondo-oscuro-paginas-web-1.jpg'); /* insertar imagen */
+    background-repeat: no-repeat; /* veces que se repite */
+    background-size: cover; /* tamaño de la imagen */
+    background-attachment: fixed; /* la imagen no se mueve mientras bajas */
+
+}
+/* selector {
+propiedad: valor: } */
+
+/* HEADER */
+h1{
+    color:rgb(253, 253, 253);
+    background-color: rgba(117, 27, 27, 0.548);
+    text-decoration:underline ;
+    font-weight: bold;
+}
+
+p{
+    font-style: italic;
+    color: rgb(152, 172, 172);
+}
+
+
+/* para afectar solo los li de ul tengo que poner ul li en vez de solo li, porque sino estarían incluidos los ul y ol */
+
+ul li {
+    text-decoration: underline;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(179, 187, 187);
+}
+
+
+/* FIN HEADER */
+
+
+/* section */
+
+.paragraph { font-style: italic;
+color: rgb(255, 255, 255);
+}
+
+#iluminati {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+/* fin section */
